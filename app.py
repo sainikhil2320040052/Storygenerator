@@ -16,7 +16,7 @@ user_input = st.text_input("Enter keywords or a prompt for your story:")
 
 if st.button("create story"):
     # Generate the story using the generative model
-    prompt = f"create a story for children under 15 using thse keywords {user_input} create title too"
+    prompt = f"create a story for children under 15 using thse keywords {user_input} create title and add emojis where ever possible"
     response = model.generate_content(prompt)
     
     
