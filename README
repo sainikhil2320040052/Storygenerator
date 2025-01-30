@@ -1,0 +1,25 @@
+# AI-Powered Story Generator
+
+This project is an AI-powered story generator designed to create child-friendly stories based on user input prompts. The application uses advanced language models to generate creative, engaging, and appropriate narratives. It can be deployed on Streamlit Cloud for easy access and use.
+
+## Features
+- **Story Generation**: Generates child-friendly stories based on user-provided prompts.
+- **Customization**: Users can influence the theme, characters, and setting of the generated story.
+- **Free Resources**: Built using open-source tools and APIs, Google Generative AI.
+
+## Technologies Used
+- **Streamlit**: For building the web interface and deploying the app.
+- **Python**: For backend logic and story generation.
+- **Google Generative AI**: To generate the story content using powerful language models.
+
+## How It Works
+1. **User Input**: The user enters a prompt or selects specific story parameters like theme, characters, and setting.
+2. **Story Generation**: The app calls the AI model to generate a narrative based on the user's input.
+3. **Output**: The generated story is displayed to the user in a readable format.
+
+## Setup Instructions
+
+### Prerequisites
+- Python 3.6 or higher
+- Streamlit
+- Google Generative AI library
